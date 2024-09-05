@@ -9,7 +9,7 @@
 # Load Zoxide
 eval "$(zoxide init zsh --cmd j --no-aliases)"
 
-# Setup Fast Node Manager auto change on CD
+# Setup mise to auto activate on CD into project folders
 eval "$(mise activate zsh)"
 
 # Use Starship prompt with znap eval cashing
