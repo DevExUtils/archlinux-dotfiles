@@ -44,5 +44,5 @@ DEVELOPER_TOOLS=(
 
 PACKAGES=("${BASE_TOOLS[@]}" "${CLOUD_TOOLS[@]}" "${DEVELOPER_TOOLS[@]}")
 
-paru -Syu --noprogressbar --noconfirm && \
-paru --noconfirm --needed -S "${PACKAGES[@]}"
+yay -Syu --noprogressbar --noconfirm && \
+yay --noconfirm --needed -S "${PACKAGES[@]}"
